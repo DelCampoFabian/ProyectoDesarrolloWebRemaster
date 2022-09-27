@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Turismo Patagónico</title>
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+
+    <!-- ENCABEZADO -->
+
+    <header>
+        <nav class="navbar navbar-expand-lg navegacion">
+            <div class="container-fluid">
+                <a class="navbar-brand  navegacion__titulo" href="index.html">Turismo Patagónico</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                   <span> <i class="fa-solid fa-bars"></i></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav navegacion__rutas p-0 ">
+                        <li class="nav-item  navegacion__rutas-item">
+                            <a aria-current="page" href="index.html" class=" navegacion__enlaces">INICIO</a>
+                        </li>
+                        <li class="nav-item  navegacion__rutas-item">
+                            <a href="./pages/nosotros.html" class=" navegacion__enlaces">NOSOTROS</a>
+                        </li>
+                        <li class="nav-item  navegacion__rutas-item">
+                            <a href="./pages/contacto.html" class=" navegacion__enlaces">CONTACTO</a>
+                        </li>
+                        <li class="nav-item  navegacion__rutas-item">
+                            <a href="./pages/preguntas.html" class="navegacion__enlaces">PREGUNTAS FRECUENTES</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="header__img">
+            <img src="./assets/img/encabezadoUno.png" alt="Turismo Patagónico">
+        </div>
+    </header>
+
+    <!-- SECCION PRINCIPAL -->
+
+    <main>
+        <!-- SERVICIOS -->
+        <section class="servicios row justify-content-center align-items-center col-md-10">
+            <h2 class="titulos">Servicios</h2>
+            <div class="servicios__text col-10 col-md-12 col-lg-6 ">
+                <h3 class="servicios__text-titulo">Guias y actividades turisticas</h3>
+                <p class="servicios__text-parrafo">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit
+                    aliquam aliquid incidunt quidem ipsa nihil ullam. Dignissimos officia corporis, labore neque
+                    officiis cupiditate, magnam ea iste amet iusto a natus!
+                </p>.
+                <p class="servicios__text-parrafo">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit
+                    aliquam aliquid incidunt quidem ipsa nihil ullam. Dignissimos officia corporis, labore neque
+                    officiis cupiditate, magnam ea iste amet iusto a natus!</p>
+            </div>
+            <div class="servicios__img col-10 col-md-12 col-lg-6">
+                <img class="img-fluid" src="./assets/img/servicio2.jpg" alt="">
+            </div>
+
+            <div class="servicios__text col-10 col-md-12 col-lg-6 ">
+                <h3 class="servicios__text-titulo">Alojamiento</h3>
+                <p class="servicios__text-parrafo">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit
+                    aliquam aliquid incidunt quidem ipsa nihil ullam. Dignissimos officia corporis, labore neque
+                    officiis cupiditate, magnam ea iste amet iusto a natus!
+                </p>.
+                <p class="servicios__text-parrafo">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit
+                    aliquam aliquid incidunt quidem ipsa nihil ullam. Dignissimos officia corporis, labore neque
+                    officiis cupiditate, magnam ea iste amet iusto a natus!</p>
+            </div>
+            <div class="servicios__img col-10 col-md-12 col-lg-6">
+                <img class="img-fluid" src="./assets/img/alojamientos.jpg" alt="">
+            </div>
+
+            <div class="servicios__text col-10 col-md-12 col-lg-6 ">
+                <h3 class="servicios__text-titulo">Transporte</h3>
+                <p class="servicios__text-parrafo">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit
+                    aliquam aliquid incidunt quidem ipsa nihil ullam. Dignissimos officia corporis, labore neque
+                    officiis cupiditate, magnam ea iste amet iusto a natus!
+                </p>.
+                <p class="servicios__text-parrafo">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit
+                    aliquam aliquid incidunt quidem ipsa nihil ullam. Dignissimos officia corporis, labore neque
+                    officiis cupiditate, magnam ea iste amet iusto a natus!</p>
+            </div>
+            <div class="servicios__img col-10 col-md-12 col-lg-6">
+                <img class="img-fluid" src="./assets/img/pasajes.png" alt="">
+            </div>
+        </section>
+
+        <!-- PLANES -->
+
+        <section class="planes row justify-content-around col-md-12">
+            <h2 class="titulos">Planes</h2>
+            <div class="planes__container col-10 col-sm-8 col-md-7 col-lg-4 col-xl-3">
+                <h3 class="planes__titulo">Guia y alojamientos</h3>
+                <p class="planes__precio">$90.000</p>
+                <ul class="planes__beneficios p-0 m-0">
+                    <li class="planes__beneficios-item"><i class="fa-solid fa-circle-check"></i>Lorem ipsum dolor sit
+                        amet consectetur.</li>
+                    <li class="planes__beneficios-item"><i class="fa-solid fa-circle-check"></i>Lorem ipsum dolor sit.
+                    </li>
+                    <li class="planes__beneficios-item"><i class="fa-solid fa-circle-check"></i>Lorem ipsum dolor sit
+                        amet.</li>
+                    <li class="planes__beneficios-item"><i class="fa-solid fa-circle-check"></i>Lorem ipsum dolor sit
+                        amet, consectetur adipisicing elit. Porro.</li>
+                    <li class="planes__beneficios-item"><i class="fa-solid fa-circle-xmark cruz"></i></i>Lorem, ipsum dolor.
+                    </li>
+                    <li class="planes__beneficios-item"><i class="fa-solid fa-circle-xmark cruz"></i>Lorem ipsum dolor sit
+                        amet.</li>
+                </ul>
+            </div>
+
+            <div class="planes__container col-10 col-sm-8 col-md-7 col-lg-4 col-xl-3">
+                <h3 class="planes__titulo">Pack Premium</h3>
+                <p class="planes__precio">$120.000</p>
+                <ul class="planes__beneficios p-0 m-0">
+                    <li class="planes__beneficios-item"><i class="fa-solid fa-circle-check"></i>Lorem ipsum dolor sit
+                        amet consectetur.</li>
+                    <li class="planes__beneficios-item"><i class="fa-solid fa-circle-check"></i>Lorem ipsum dolor sit.
+                    </li>
+                    <li class="planes__beneficios-item"><i class="fa-solid fa-circle-check"></i>Lorem ipsum dolor sit
+                        amet.</li>
+                    <li class="planes__beneficios-item"><i class="fa-solid fa-circle-check"></i>Lorem ipsum dolor sit
+                        amet, consectetur adipisicing elit. Porro.</li>
+                    <li class="planes__beneficios-item"><i class="fa-solid fa-circle-check"></i>Lorem, ipsum dolor.</li>
+                    <li class="planes__beneficios-item"><i class="fa-solid fa-circle-check"></i>Lorem ipsum dolor sit
+                        amet.</li>
+                </ul>
+            </div>
+
+            <div class="planes__container col-10 col-sm-8 col-md-7 col-lg-4 col-xl-3">
+                <h3 class="planes__titulo">Reservas y Guias</h3>
+                <p class="planes__precio">$60.000</p>
+                <ul class="planes__beneficios p-0 m-0">
+                    <li class="planes__beneficios-item"><i class="fa-solid fa-circle-check"></i>Lorem ipsum dolor sit
+                        amet consectetur.</li>
+                    <li class="planes__beneficios-item"><i class="fa-solid fa-circle-check"></i>Lorem ipsum dolor sit.
+                    </li>
+                    <li class="planes__beneficios-item"><i class="fa-solid fa-circle-check"></i>Lorem ipsum dolor sit
+                        amet.</li>
+                    <li class="planes__beneficios-item"><i class="fa-solid fa-circle-xmark cruz"></i></i>Lorem ipsum dolor
+                        sit amet, consectetur adipisicing elit. Porro.</li>
+                    <li class="planes__beneficios-item"><i class="fa-solid fa-circle-xmark cruz"></i></i>Lorem, ipsum dolor.
+                    </li>
+                    <li class="planes__beneficios-item"><i class="fa-solid fa-circle-xmark cruz"></i></i>Lorem ipsum dolor
+                        sit amet.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- TESTIMONIOS -->
+
+        <section class="testimonios row justify-content-center align-items-center">
+            <h2 class="titulos">Testimonios</h2>
+            <div class="testimonios__container col-10 col-md-8 col-lg-4 col-xl-3">
+                <img class="testimonios__img" src="./assets/img/testimoniosUno.png" alt="">
+                <h4 class="testimonios__nombre">Carmen Mansilla</h4>
+                <p class="testimonios__parrafo">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque placeat
+                    corrupti, quis totam animi illum nesciunt qui labore natus facere enim ex! Quibusdam, mollitia
+                    praesentium!</p>
+            </div>
+
+            <div class="testimonios__container col-10 col-md-8 col-lg-4 col-xl-3">
+                <img class="testimonios__img" src="./assets/img/testimoniosDos.png" alt="">
+                <h4 class="testimonios__nombre">Nicolas Garcia</h4>
+                <p class="testimonios__parrafo">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque placeat
+                    corrupti, quis totam animi illum nesciunt qui labore natus facere enim ex! Quibusdam, mollitia
+                    praesentium!</p>
+            </div>
+
+            <div class="testimonios__container col-10 col-md-8 col-lg-4 col-xl-3">
+                <img class="testimonios__img" src="./assets/img/testimoniosTres.png" alt="">
+                <h4 class="testimonios__nombre">Camila Perez</h4>
+                <p class="testimonios__parrafo">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque placeat
+                    corrupti, quis totam animi illum nesciunt qui labore natus facere enim ex! Quibusdam, mollitia
+                    praesentium!</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- PIE DE PÁGINA -->
+
+    <footer class="row justify-content-around col-12 footer mx-0">
+        <div class="col-10 col-md-5 col-lg-2 footer__titulo">
+            <h4>Turismo Patagónico</h4>
+        </div>
+        <div class="col-10 col-md-5 col-lg-2 footer__soporte">
+            <h4>Soporte</h4>
+            <ul class="footer__lista p-0 m-0">
+                <li class="footer__lista-item" >Terminos de servicio</li>
+                <li class="footer__lista-item" >Condiciones de uso</li>
+                <li class="footer__lista-item" >Politica de privacidad</li>
+                <li class="footer__lista-item" >Centro de ayuda</li>
+                <li class="footer__lista-item" >Status</li>
+            </ul>
+        </div>
+        <div class="col-10 col-md-5 col-lg-2 footer__redes">
+            <h4>Redes</h4>
+            <ul class="footer__lista  p-0 m-0">
+                <li class="footer__lista-item" ><i class="fa-brands fa-instagram"></i> <span>Instagram</span></li>
+                <li class="footer__lista-item" ><i class="fa-brands fa-square-facebook"></i> <span>Facebook</span></li>
+                <li class="footer__lista-item" ><i class="fa-brands fa-twitter"></i> <span>Twitter</span></li>
+            </ul>
+        </div>
+        <div class="col-10 col-md-5 col-lg-2 footer__compañia">
+            <h4>Compañia</h4>
+            <ul class="footer__lista  p-0 m-0">
+                <li class="footer__lista-item" >Inicio</li>
+                <li class="footer__lista-item" >Nosotros</li>
+                <li class="footer__lista-item" >Preguntas frecuentes</li>
+                <li class="footer__lista-item" >Contacto</li>
+                <li class="footer__lista-item" >Planes</li>
+            </ul>
+        </div>
+    </footer>
+
+
+    <script src="https://kit.fontawesome.com/5612fcab1f.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

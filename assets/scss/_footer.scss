@@ -1,0 +1,32 @@
+.footer {
+    background-color: #000;
+    margin-top: 50px;
+    padding: 25px;
+    .footer__titulo{
+        margin: 25px;
+        h4{
+            font-size: 48px;
+            color: #fff;
+            font-family: pacifico;
+        }
+    }
+    .footer__soporte, .footer__compañia, .footer__redes{
+        margin: 25px;
+        h4{
+            color: #fff;
+            font-size: 26px;
+            font-weight: 600;
+        
+        }
+
+    }
+    
+    .footer__lista{
+        list-style: none;
+        color: #ccc;
+        font-size: 17px;
+        .footer__lista-item{
+            margin: 2px auto ;
+        }
+    }
+}

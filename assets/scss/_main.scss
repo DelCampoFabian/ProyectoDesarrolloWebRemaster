@@ -1,0 +1,194 @@
+// SERVICIOS
+.titulos {
+    text-align: center;
+    font-size: 52px;
+    font-family: pacifico;
+    font-weight: 600;
+    margin: 50px auto;
+
+}
+.servicios {
+    margin: 70px auto;
+    .servicios__img {
+        margin: 25px auto;
+        padding: 15px;
+    }
+    .servicios__text {
+        margin: 30px auto;
+        padding: 15px;
+        .servicios__text-titulo {
+            font-size: 28px;
+            font-family: "pacifico";
+            text-align: center;
+            line-height: 56px;
+            color: #00aaff;
+        }
+        .servicios__text-parrafo {
+            font-family: "roboto";
+            font-size: 18px;
+
+        }
+    }
+}
+
+// PLANES
+
+.planes {
+    margin: 70px auto;
+    .planes__container{
+        margin: 25px;
+        padding: 15px 25px;
+        box-shadow: 2px 2px 20px 0 #00aaff;
+        .planes__titulo{
+            font-size: 28px;
+            font-family: pacifico;
+            text-align: center;
+            color: #0ac;
+            width: max-content;
+            margin: 10px auto;
+        }
+        .planes__precio{
+            font-size: 32px;
+            font-family: roboto;
+            font-weight: bold;
+            text-align: center;
+        }
+        .planes__beneficios {
+            list-style: none;
+            .planes__beneficios-item{
+                font-size: 18px;
+                font-family: "roboto";
+                font-weight: 500;
+                line-height: 36px;
+                margin: 10px auto;
+                i{
+                    padding: 5px 10px;
+                    color: #0ac;
+                }
+                .cruz{
+                    color: #f55;
+                }
+            }
+        }
+    }
+    
+}
+
+
+.testimonios__container {
+    padding: 25px;
+    margin: 25px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #000;
+    .testimonios__img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 15px;
+    border: 4px solid #fff;
+    }
+    .testimonios__nombre{
+        font-size: 26px;
+        margin: 10px auto;
+        color: #fff;
+    }
+    .testimonios__parrafo {
+        font-size: 16px;
+        padding: 0 15px;
+        font-family: roboto;
+        color: #fff;
+        text-align: center;
+    }
+}
+
+
+/* NOSOTROS */
+.nosotros__titulo{
+    font-size: 56px;
+    color: #0ac;
+    font-family: pacifico;
+}
+.nosotros__titulos {
+    font-size: 32px;
+    font-weight:700;
+}
+.nosotros__container {
+    height: 500px;
+    overflow-y: scroll;
+    box-shadow: 0px 0px 15px 0 #999;
+    .nosotros__lista{
+        list-style: inside;
+        padding: 15px 35px;
+        font-family: roboto;
+        font-size: 18px;
+        .nosotros__lista-item {
+        line-height: 26px;
+        margin: 10px auto;
+        }
+    }
+}
+.nosotros__container::-webkit-scrollbar{
+    width: 8px;
+}
+.nosotros__container::-webkit-scrollbar-thumb{
+    background-color: #0ac;
+    border-radius: 5px;
+} 
+
+
+/* CONTACTO */ 
+.form {
+    box-shadow: 0px 0px 15px 0 #999;
+    padding: 15px;
+    font-family: roboto;
+    
+    .form__titulo {
+        text-align: center;
+        font-size: 28px;
+    }
+    .form__label {
+        padding:  10px;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .form__input {
+        padding: 5px;
+        outline: none;
+        border: none;
+        border-bottom: 4px solid #0ac;
+        background-color: #ddd;
+        border-radius: 4px;
+    }
+    .form__select {
+        background-color: #0ac;
+        border:none;
+        font-size: 17px;
+        font-weight: 600;
+
+        padding: 5px;
+        border-radius: 4px;
+    }
+    .form__button {
+        margin: 20px auto;
+        background-color: #0ac;
+        font-size: 18px;
+        font-weight: 600;
+        border: none;
+        padding: 5px;
+        border-radius: 4px;
+        &:hover {
+            background-color: #09c;
+        }
+
+    }
+}
+
+/* PREGUNTAS */
+
+.preguntas__titulo {
+    font-size: 26px;
+    color: #454545;
+    padding: 5px;
+    border-bottom: 4px solid #454545;
+}

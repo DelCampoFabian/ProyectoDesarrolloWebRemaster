@@ -1,0 +1,113 @@
+@media (max-width: 992px) {
+    body::-webkit-scrollbar{
+        width: 10px;
+    }
+    
+    
+
+    /* Nav */
+    .header__img {
+        display: none;
+    }
+    .navegacion {
+        .navegacion__rutas-item {
+            line-height: 60px;
+            padding: 0 20px;
+
+            .navegacion__enlaces {
+                text-decoration: none;
+                color: #000;
+                font-size: 16px;
+                font-weight: 600;
+                height: 100%;
+            }
+
+            &:hover {
+                background-color: #0000;
+            }
+        }
+    }
+
+    /* Main */
+
+    // SERVICIOS
+    .titulos {
+        font-size: 40px;
+        margin: 30px auto;
+
+    }
+    .servicios {
+        margin: 0 auto;
+        .servicios__img {
+            margin: 15px auto;
+            padding: 0px;
+        }
+        .servicios__text {
+            margin: 15px auto;
+            .servicios__text-titulo {
+                font-size: 24px;
+                line-height: 50px;
+            }
+            .servicios__text-parrafo {
+                font-size: 15px;
+            }
+        }
+    }
+
+    // PLANES
+
+        .planes {
+            margin: 0px auto;
+            .planes__container{
+                margin: 25px 0;
+                .planes__titulo{
+                    font-size: 24px;
+                }
+                .planes__precio{
+                    font-size: 28px;
+                }
+                .planes__beneficios {
+                    .planes__beneficios-item{
+                        font-size: 15px;
+                        line-height: 30px;
+                    }
+                }
+            }
+        }
+
+        .testimonios__container {
+            padding: 15px;
+            margin: 25px 0;
+            .testimonios__nombre{
+                font-size: 22px;
+            }
+            .testimonios__parrafo {
+                font-size: 15px;
+            }
+        }
+
+
+        .nosotros__titulo{
+            font-size: 40px;
+        }
+        .nosotros__titulos {
+            font-size: 26px;
+        }
+        .nosotros__container {
+            .nosotros__lista{
+                font-size: 16px;
+                .nosotros__lista-item {
+                line-height: 24px;
+                }
+            }
+        }
+
+}
+
+@media (min-width:772px) {
+    .preguntas__titulo {
+        font-size: 30px;
+        padding: 8px;
+        
+    }
+}

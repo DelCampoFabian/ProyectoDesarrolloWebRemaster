@@ -1,0 +1,19 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    padding-top: 60px;
+    overflow-x:hidden;
+}
+
+body::-webkit-scrollbar{
+    width: 15px;
+}
+body::-webkit-scrollbar-thumb{
+    background: rgb(0,170,204);
+    background: linear-gradient(360deg, rgba(0,170,204,1) 0%, rgba(0,185,255,1) 100%);
+    border-radius: 10px;
+
+}
